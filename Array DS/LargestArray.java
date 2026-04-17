@@ -8,6 +8,7 @@ public class LargestArray {
          }
      }
      System.out.println(" largest value of the Array is "+max);
+     System.out.println();
 
     }
 }
