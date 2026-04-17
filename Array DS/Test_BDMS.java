@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class Blood_Donation_Management_System {
+public class Test_BDMS {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        functions a = new functions();
+        BloodDMS_Project a = new BloodDMS_Project();
         String ch;
         do {
             System.out.println(

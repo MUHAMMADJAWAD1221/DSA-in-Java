@@ -1,6 +1,5 @@
 //NAME MUHAMMAD JAWAD
 //ROLL 2K25/BLCS/45
-
 import java.util.*;
 public class LAB_45 {
     public static void main(String[] args) {
@@ -18,7 +17,8 @@ public class LAB_45 {
         }
         int ch;
         do{
-            System.out.println("\n1: Traversal"+"\n2: Insertion"+"\n3: Deletion"+"\n4: Searching"+
+            System.out.println("\n1: Traversal"+"\n2: Insertion"+"\n3: Deletion"+"\n4: " +
+                    "Searching"+
                     "\n5: Updating"+"\n6: Sorting"+"\n7: Reversing"+"\n8: Merging"+"\n9: Splitting"+"\n0: Exit");
             System.out.print("Enter choice: ");
             ch = sc.nextInt();
@@ -61,7 +61,7 @@ public class LAB_45 {
                     System.out.println("Not found");
             }
             else if (ch==6) {// Sorting
-                for (int i = 0; i < n-1 ; i++) { // n - 1 passes
+                for (int i = 0; i < n-1; i++) { // n - 1 passes
                     for (int j = 0; j < n - 1; j++) {
                         if (arr[j] > arr[j + 1]) {
                             int temp = arr[j];
@@ -71,8 +71,8 @@ public class LAB_45 {
                         }
                     }
                 }
-                for(int ele : arr){
-                    System.out.print(ele + " ");
+                for(int i=0; i<n; i++){
+                    System.out.print(arr[i] + " ");
                 }
             }else if (ch==7) { // // Reversing
                 int i = 0;
@@ -84,8 +84,8 @@ public class LAB_45 {
                     j--;
                     i++;
                 }
-                for (int ele : arr){
-                    System.out.print(ele + " ");
+                for (int a =0; i<n;i++){
+                    System.out.print( arr[i] + " ");
                 }
             }   // Merging
             if (ch==8) {
@@ -108,7 +108,7 @@ public class LAB_45 {
             if (ch==9) {
                 int mid = n / 2;
                 System.out.println("First array:");
-                for (int i = 0; i < mid; i++)
+                for (int i = 0; i < mid-1; i++)
                     System.out.print(arr[i] + " ");
 
                 System.out.println("\nSecond array:");

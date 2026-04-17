@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 import java.util.Scanner;
-public class functions {
+public class BloodDMS_Project {
 
     int max_Donner = 100;
     String[] donorNames = new String[max_Donner];
