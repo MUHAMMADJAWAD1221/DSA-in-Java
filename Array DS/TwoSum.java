@@ -9,7 +9,7 @@ public class TwoSum {
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] + arr[j] == target) {
-                    System.out.println("Found at index: " + i + " and " + j+" values are "+arr[j]+""+arr[i]);
+                    System.out.println("Found at index: " + i + " and " + j+" values are "+arr[j]+" "+arr[i]);
                     return true;
                 }
             }
