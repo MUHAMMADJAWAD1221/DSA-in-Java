@@ -7,9 +7,12 @@ public class multiplyingOddIndexes {
                 System.out.print(a[i]);
 
             }
+
             else{
+
+
                 a[i]+=10;
-                System.out.println(a[i]);
+                System.out.print(a[i]+" ");
             }
         }
     }
